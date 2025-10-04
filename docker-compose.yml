@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  v2ray:
+    build: .
+    ports:
+      - "10086:10086"
+      - "10087:10087"
+    restart: always
